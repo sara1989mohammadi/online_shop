@@ -1,11 +1,14 @@
 import React from "react";
 import Home from "./components/pages/Home";
+import Dashboard from "./components/pages/Dashboard";
+import { CartProvider } from "./store/CartProvider";
 
 const App = () => {
   return (
-    <div>
+    <CartProvider>
       <Home />
-    </div>
+      {/* <Dashboard /> */}
+    </CartProvider>
   );
 };
 

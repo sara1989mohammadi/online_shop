@@ -3,7 +3,6 @@ import React from "react";
 const Features = () => {
   return (
     <div>
-      {" "}
       <section className="container py-16">
         <div className="w-10/12 mx-auto grid grid-cols-3 gap-6 justify-center">
           <div className="flex items-center justify-center gap-x-5 border border-primary-color py-5 px-9 rounded">

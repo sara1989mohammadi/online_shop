@@ -3,7 +3,6 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      {" "}
       <footer>
         <div className="bg-gray-50">
           <div className="container py-16">
